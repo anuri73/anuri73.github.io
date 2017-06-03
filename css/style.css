@@ -1,4 +1,20 @@
 header.masthead {
-    background: url("/img/bg.jpeg");
-    background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
+
+header.masthead div.container {
+    position: relative;
+    z-index: 2;
+}
+
+header.masthead img.background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    opacity: 0.6;
+}
+
